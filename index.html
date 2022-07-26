@@ -12,7 +12,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-light mx-5">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top mx-5">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -27,13 +27,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpacks</a>
+                            <a class="nav-link" href="#bags">Backpacks</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subsc">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -134,7 +134,7 @@
         </section>
         <!-- catagories end -->
         <!-- Shoes section start -->
-        <section class="container my-5">
+        <section class="container my-5" id="shoes">
             <h2>Shoes</h2>
             <div class="card-group">
                 <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1">
@@ -173,7 +173,7 @@
         </section>
         <!-- Shoes section end -->
         <!-- backpack section start -->
-        <section class="container my-5">
+        <section class="container my-5" id="bags">
             <h2>Backpacks</h2>
             <div class="card-group">
                 <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1">
@@ -211,10 +211,22 @@
             </div>
         </section>
         <!-- backpack section end -->
+        <!-- subscription start -->
+        <section class="container d-flex bg-info justify-content-center p-5 rounded-3" id="subsc">
+            <div>
+                <h2>LET'S STAY IN TOUCH</h2>
+                <p>Get updates on sales, specials and more</p>
+                <input type="email" name="" id="">
+                <button type="button" class="btn btn-danger d-block">Danger</button>
+            </div>
+        </section>
+        <!-- subscription end -->
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+    <footer class="text-center mt-5">©2023. Panda Commerce. All rights reserved.
+        Sofia, Bulgaria.</footer>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
